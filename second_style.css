@@ -1,0 +1,63 @@
+body{
+    background-image: url('game2.png');
+    width: auto;
+    height: auto;
+    background-repeat: repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    font-family:Honk;
+    font-size: 50px;
+    text-align: center;
+
+}
+h2{
+    font-family:Honk;
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    font-family: Alumni Sans Pinstripe;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(85, 67, 41);
+    text-align: justify;
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hobbies {
+    font-family:Alumni Sans Pinstripe;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: justify;  
+    width: 260px; 
+    margin-left: auto;
+    margin-right: auto; 
+    list-style-position: inside;  
+}
+.image{
+    display: block;
+    width: 400;
+    height: 250;
+    object-fit: cover;
+    position:relative;
+    display:flex;
+    align-items: flex-end;
+    border-radius: 9px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.link{
+    list-style:none; 
+	display:flex;
+	justify-content: space-around;
+    margin-left: 60px;
+    font-family: Honk;
+    font-size: 20px;
+}
+a:link{
+    text-decoration: none; 
+}
